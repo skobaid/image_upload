@@ -9,11 +9,11 @@ const { config } = require("process");
 const imageUpload = require("./src/models/upload");
 const fs =require("fs");
 require("./src/db/conn");
-
+const port = process.env.PORT || 8000;
 
 //init app
 const app = express();
-const port = 3000;
+// const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({extended:false})); //For Getting Data From Form
 
