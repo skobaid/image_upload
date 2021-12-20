@@ -1,5 +1,5 @@
 # image_upload
 
-I this project we can upload image .
+This is for image uploading...
 
 we use multer for uploading image.
